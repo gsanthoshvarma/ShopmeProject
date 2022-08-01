@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TXLife>
+  <TXLifeRequest>
+     <OLIFE>
+        <Holding id="Holding_1">
+          <HoldingName>MainHolding</HoldingName>
+          <Policy>
+            <EffDate>2022-05-31</EffDate>
+            <PolNumber>4006352</PolNumber>
+            <PolicyOriginType/>
+            <PolicyStatus tc="1030">Premium Paying</PolicyStatus>
+            <Jurisdiction tc="1"/>
+            <shortName>GIFE</shortName>
+            <PlanName>GuarantedIssueFinalExpense</PlanName>
+            <OLIfEExtension>
+               <TrustMaxAgePerState>25</TrustMaxAgePerState>
+               <JointCustodianAllowedFlag>FALSE</JointCustodianAllowedFlag>
+               <IsTaxQualified>FALSE</IsTaxQualified>
+               <CompanyCode>LF</CompanyCode>
+               <AgreementIndexID>267701634</AgreementIndexID>
+               <ChannelType tc="03"/>
+            </OLIfEExtension>
+            <ApplicationInfo>
+               <TrackingId/>
+            </ApplicationInfo>
+            <OLIfEExtension>
+              <StateFormStatusCode>55</StateFormStatusCode>
+            </OLIfEExtension>
+          </Policy>
+          <OLIFEExtension>
+            <Signature>
+              <SignatureOption tc="3"></SignatureOption>
+            </Signature>
+          </OLIFEExtension>
+        </Holding>
+        <Party id="Owner">
+          <IDReferenceNO>W9LB5B51YWA</IDReferenceNO>
+          <PartyRoleTypeCode tc="1">CUST</PartyRoleTypeCode>
+          <PartyTypeCode tc="1"/>
+          <GovtID lastFourDigitsSSN ="4806">769224806</GovtID>
+          <Person>
+              <FirstName>LIDA</FirstName>
+              <MiddleName>S</MiddleName>
+              <LastName>SEFLIBA</LastName>
+              <Suffix tc="11" />
+              <Occupation tc="22">Military</Occupation>
+              <BirthDate>1942-12-01</BirthDate>
+              <Age>79</Age>
+              <Gender tc="1">M</Gender>
+          </Person>
+          <OLifEExtension>
+           <MailingAddrInd tc="0" />
+           <IsResidenceSameAsMailingAddrInd tc="1" />
+           <ProtecedPerson tc="N" />
+           <DoNotShare tc="N" />
+          </OLifEExtension>
+          <Address>
+            <AddressTypeCode tc="17"/>
+            <Line1>812 MYRA DR</Line1>
+            <Line2>APT VAJU</Line2>
+            <Line/>
+            <City>MOBILE</City>
+            <AddressStateTC tc="1">UNITED STATES</AddressStateTC>
+            <Zip>36606</Zip>
+            <StartDate/>
+            <OLifEExtension>
+              <AddressUsage>US</AddressUsage>
+              <Standardized>Y</Standardized>
+              <AddressLocationType tc="01"/>
+            </OLifEExtension>
+          </Address>
+          <Address>
+            <AddressTypeCode tc="1"/>
+            <Line1>812 MYRA DR</Line1>
+            <Line2>APT VAJU</Line2>
+            <Line/>
+            <City>MOBILE</City>
+            <AddressStateTC tc="1">AL</AddressStateTC>
+            <AddressCountry tc="1">UNITED STATES</AddressCountry>
+            <Zip>36606</Zip>
+            <StartDate/>
+            <OLifEExtension>
+              <AddressUsage>US</AddressUsage>
+              <Standardized>Y</Standardized>
+              <AddressLocationType tc="01"/>
+            </OLifEExtension>
+          </Address>
+          <Phone>
+            <PhoneTypeCode tc="1"/>
+            <DialNumber>7864355573</DialNumber>
+          </Phone>
+          <EmailAddress>
+            <AddrLine>SEFLIBA@STATEFARM.COM</AddrLine>
+          </EmailAddress>
+          <DeliveryInfo>
+            <OLifEExtension>
+               <IsPaperlessDelivery>N</IsPaperlessDelivery>
+            </OLifEExtension>
+          </DeliveryInfo>
+        </Party>
+     </OLIFE>
+  </TXLifeRequest>
+</TXLife>

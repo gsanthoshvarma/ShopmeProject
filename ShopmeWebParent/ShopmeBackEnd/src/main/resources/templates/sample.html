@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+       url = "https://ipinfo.io/json?token=60ac4f00a0e53f";
+         $.get(url,function(response) {
+        alert(response.ip);
+        alert(response.city);
+     }).fail(function(){
+         showDialogMessage("Warning","Couldn't connect to the server");
+     });
+     return false;
+    });
+</script>
+</head>
+<body>
+
+</body>
+</html>
